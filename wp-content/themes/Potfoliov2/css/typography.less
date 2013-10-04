@@ -1,0 +1,159 @@
+@import "var";
+
+h1 {
+    font-size: 3em;
+    font-family: 'Bree Serif',serif;
+    border-bottom: 1px dashed #A5A5A5;
+    height: 6em;
+    margin-bottom: .4em;
+}
+
+h2 {
+    font-size: 3.1em;
+    margin: 0.83em 0 .5em 0;
+    font-family: 'Bree Serif', serif;
+    color:@black;
+
+}
+
+h3 {
+    font-size: 1.65em;
+    margin: 1em 0 0.35em 0;
+    font-family: 'Bree Serif', serif;
+    color:@black;
+
+}
+
+h4 {
+    font-size: .7em;
+    margin: 1.33em 0;
+    font-family: Georgia, serif;
+    color:@black;
+}
+
+h5 {
+    font-size: .83em;
+    margin: 1.67em 0;
+}
+
+h6 {
+    font-size: 0.67em;
+    margin: 2.33em 0;
+}
+
+p, label,{
+    font-size: 1em;
+    line-height: 1.4em;
+    margin: 0 0 1em 0;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-weight: 500 ;
+    text-align: left;
+    color:@black;
+}
+.adp, .adp table, .adp-list{
+        font-size: 1em;
+    line-height: 1.4em;
+    margin: 0 0 1em 0;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-weight: 500 ;
+    text-align: left;
+    color:@black;
+}
+
+
+a{
+    text-decoration: none;
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+    color: @red;
+    border-bottom: 1px dashed @red;
+
+    &:hover{
+        background-color: @red;
+        color: white;
+        text-decoration: none;
+            -webkit-transition: all 0.4s ease-in;
+    -moz-transition: all 0.4s ease-in;
+    -o-transition: all 0.4s ease-in;
+    transition: all 0.4s ease-in;
+    }
+}
+
+ul{
+    padding-left: 0;
+}
+
+nav{
+    margin-left: 0;
+    z-index: 15;
+}
+
+li{
+list-style-type: none;
+font-size: 1em;
+font-family: 'Open Sans',sans-serif;
+margin-bottom: .4em;
+padding: .2em 0;
+line-height: 1.4em;
+}
+
+span{
+    text-decoration: none;
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+nav li{
+    padding: 0
+}
+
+header li a{
+    font-size: 1.45em;
+    line-height: 1.4em;
+    margin: 0 0 1em 0;
+    font-family: 'Open Sans', sans-serif;
+    color: @black;
+    font-weight: 500;
+    text-decoration: none;
+    border-bottom: none;
+}
+    &:hover {
+        color: @black;
+    }
+
+
+header li a{
+display: block;
+padding: .1em 0 .1em .4em;
+margin-bottom: .3em;
+font-weight: 700;
+}
+
+    nav li:hover{
+        background: @red;
+    }
+
+header h1 a{
+font-size: 1.45em;
+line-height: .3em;
+margin: 0 0 1em 0;
+font-family: 'Open Sans',sans-serif;
+color: #292929;
+font-weight: 500;
+text-decoration: none;
+border-bottom: none;
+display: block;
+background: url('../img/logo.png') no-repeat center top;
+padding-top: 3em;
+margin-top: .7em;
+
+&:hover{
+    opacity: 1;
+transition: none;
+color: #000;
+background: url('../img/logo.png') no-repeat center top;
+}
+}
